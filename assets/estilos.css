@@ -1,0 +1,51 @@
+:root{
+    --preto:#141414;
+    --vermelho:#e50914;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    color:#AAA;
+    background-color: var(--preto);
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family:'arial',sans-serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#e50914;
+}
+/* artigo destaque*/
+
+
+.filme-principal{
+    font-size: 30px;
+    background: url('/assets/img/1.jpg');
+
+    height:600px;
+    background-size: cover;
+}
